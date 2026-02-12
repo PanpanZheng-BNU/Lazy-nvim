@@ -1,8 +1,15 @@
 return {
-  -- add gruvbox
-  { "shaunsingh/nord.nvim" },
+  -- add nord
+  {
+    "shaunsingh/nord.nvim",
+    lazy = false,
+    priority = 1000,
+    init = function()
+      vim.g.nord_disable_background = true
+    end,
+  },
 
-  -- Configure LazyVim to load gruvbox
+  -- Configure LazyVim to load nord
   {
     "LazyVim/LazyVim",
     opts = {
