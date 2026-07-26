@@ -66,7 +66,8 @@ return {
   --   end,
   -- },
   { "nvim-lua/plenary.nvim" },
-  { "norcalli/nvim-colorizer.lua" },
+  -- Example using nvim-colorizer.lua
+
   { "brianhuster/autosave.nvim" },
   {
     "evesdropper/luasnip-latex-snippets.nvim",

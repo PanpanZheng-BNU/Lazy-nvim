@@ -28,6 +28,11 @@ vim.api.nvim_create_autocmd("ColorScheme", {
       "NeoTreeNormalNC",
       "TelescopeNormal",
       "TelescopeBorder",
+      "AvanteNormal",
+      "AvanteNormalNC",
+      "AvanteInput",
+      "AvanteTitle",
+      "AvanteSubtitle",
     }
     for _, group in ipairs(hl_groups) do
       vim.api.nvim_set_hl(0, group, { bg = "none", ctermbg = "none" })
